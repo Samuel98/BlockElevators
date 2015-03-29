@@ -1,0 +1,21 @@
+name: BlockElevators
+version: 1.0
+author: Samuel98 (SamzRulez)
+website: http://www.samuelzcloud.co.uk/
+description: Use your magical powers and create block elevators.
+
+main: uk.co.samuelzcloud.dev.plugins.BlockElevators.BlockElevators
+
+commands:
+  BlockElevators:
+    description: View and maintain the plugin information.
+    usage: /<command>
+    aliases: [BlockElevator, Elevator]
+
+permissions:
+  BlockElevators.Info:
+    description: Permission to view information about the plugin and author.
+    default: true
+  BlockElevators.Use:
+    description: Permission to use the block elevators.
+    default: true

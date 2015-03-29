@@ -1,0 +1,14 @@
+# BlockElevators v1.0 Configuration File
+# Created by Samuel98 (Formally known as SamzRulez)
+# http://www.samuelzcloud.co.uk/
+# http://dev.bukkit.org/profiles/SamzRulez/bukkit-plugins/
+# http://www.spigotmc.org/members/samzrulez.37307/#resources
+
+# The material name of the elevator block.
+# Default = IRON_BLOCK, Eg. DIAMOND_BLOCK
+# Use full capitals and underscores instead of spaces.
+ElevatorBlock: 'IRON_BLOCK'
+
+# Message to display when player does not have the correct permission.
+# Default = &cYou do not have the correct permissions.
+NoPermission: '&cYou do not have the correct permissions.'
